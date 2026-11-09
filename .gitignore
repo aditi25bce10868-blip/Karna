@@ -1,65 +1,93 @@
-# Python
+
+# ==========================================
+# KARNA - Git Ignore
+# ==========================================
+
+# --------------------------
+# Dataset, audits and preparation
+# --------------------------
+/emergency_datset/
+
+# --------------------------
+# Python cache and compiled files
+# --------------------------
 __pycache__/
 *.py[cod]
 *$py.class
-*.so
+*.pyd
 .Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
 
+# --------------------------
 # Virtual environments
+# --------------------------
 .venv/
 venv/
-ENV/
 env/
+ENV/
+.python-version
 
-# IDE
+# --------------------------
+# Jupyter notebooks
+# --------------------------
+.ipynb_checkpoints/
+
+# --------------------------
+# IDE and editor files
+# --------------------------
 .vscode/
 .idea/
+*.suo
+*.user
+*.code-workspace
+
+# --------------------------
+# Operating system files
+# --------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+
+# --------------------------
+# Environment variables and secrets
+# --------------------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# --------------------------
+# Logs and temporary files
+# --------------------------
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
 *.swp
 *.swo
+
+# --------------------------
+# Training outputs and experiment tracking
+# --------------------------
+runs/
+wandb/
+lightning_logs/
+tensorboard/
+mlruns/
+checkpoints/
+training_logs/
+
+# --------------------------
+# Generated inference output
+# Keep deliberately selected example events
+# --------------------------
+/pulse_events/latest_event.json
+
+# --------------------------
+# OS/editor backup files
+# --------------------------
 *~
-.DS_Store
-
-# Project-specific
-artifacts/
-pred_artifacts/
-*.pt
-*.pth
-*.png
-*.jpg
-*.jpeg
-*.wav
-*.mp3
-*.flac
-
-# Temporary files
-t/
-*.zip
-
-# Jupyter
-.ipynb_checkpoints/
-*.ipynb
-# Allow example notebooks
-!examples/*.ipynb
-
-# Logs
-*.log
-
-# OS
-.DS_Store
-Thumbs.db
-

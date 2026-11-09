@@ -1,0 +1,24 @@
+{
+  "accuracy": 0.6111111111111112,
+  "balanced_accuracy": 0.4694444444444445,
+  "macro_f1": 0.42485497366905767
+}
+
+                       precision    recall  f1-score   support
+
+      ambulance_siren     1.0000    0.9667    0.9831        30
+     fire_truck_siren     1.0000    1.0000    1.0000        30
+      long_horn_ahead     0.1786    0.8333    0.2941        12
+  long_horn_alongside     0.6429    0.7500    0.6923        12
+     long_horn_behind     0.0000    0.0000    0.0000        12
+     short_horn_ahead     0.1667    0.4167    0.2381        12
+ short_horn_alongside     1.0000    0.0833    0.1538        12
+    short_horn_behind     0.0000    0.0000    0.0000        12
+        traffic_noise     1.0000    1.0000    1.0000        30
+    varied_horn_ahead     0.0000    0.0000    0.0000        12
+varied_horn_alongside     1.0000    0.5833    0.7368        12
+   varied_horn_behind     0.0000    0.0000    0.0000        12
+
+             accuracy                         0.6111       198
+            macro avg     0.4990    0.4694    0.4249       198
+         weighted avg     0.6356    0.6111    0.5802       198

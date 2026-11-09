@@ -1,0 +1,74 @@
+{
+  "ambulance_siren": {
+    "pattern_id": "P01",
+    "pulse_count": null,
+    "pulse_duration_ms": null,
+    "pause_duration_ms": null
+  },
+  "fire_truck_siren": {
+    "pattern_id": "P02",
+    "pulse_count": null,
+    "pulse_duration_ms": null,
+    "pause_duration_ms": null
+  },
+  "traffic_noise": {
+    "pattern_id": "P03",
+    "pulse_count": null,
+    "pulse_duration_ms": null,
+    "pause_duration_ms": null
+  },
+  "short_horn_ahead": {
+    "pattern_id": "P04",
+    "pulse_count": null,
+    "pulse_duration_ms": null,
+    "pause_duration_ms": null
+  },
+  "short_horn_behind": {
+    "pattern_id": "P05",
+    "pulse_count": null,
+    "pulse_duration_ms": null,
+    "pause_duration_ms": null
+  },
+  "short_horn_alongside": {
+    "pattern_id": "P06",
+    "pulse_count": null,
+    "pulse_duration_ms": null,
+    "pause_duration_ms": null
+  },
+  "long_horn_ahead": {
+    "pattern_id": "P07",
+    "pulse_count": null,
+    "pulse_duration_ms": null,
+    "pause_duration_ms": null
+  },
+  "long_horn_behind": {
+    "pattern_id": "P08",
+    "pulse_count": null,
+    "pulse_duration_ms": null,
+    "pause_duration_ms": null
+  },
+  "long_horn_alongside": {
+    "pattern_id": "P09",
+    "pulse_count": null,
+    "pulse_duration_ms": null,
+    "pause_duration_ms": null
+  },
+  "varied_horn_ahead": {
+    "pattern_id": "P10",
+    "pulse_count": null,
+    "pulse_duration_ms": null,
+    "pause_duration_ms": null
+  },
+  "varied_horn_behind": {
+    "pattern_id": "P11",
+    "pulse_count": null,
+    "pulse_duration_ms": null,
+    "pause_duration_ms": null
+  },
+  "varied_horn_alongside": {
+    "pattern_id": "P12",
+    "pulse_count": null,
+    "pulse_duration_ms": null,
+    "pause_duration_ms": null
+  }
+}

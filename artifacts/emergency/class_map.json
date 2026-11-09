@@ -1,0 +1,14 @@
+{
+  "0": "ambulance_siren",
+  "1": "fire_truck_siren",
+  "2": "long_horn_ahead",
+  "3": "long_horn_alongside",
+  "4": "long_horn_behind",
+  "5": "short_horn_ahead",
+  "6": "short_horn_alongside",
+  "7": "short_horn_behind",
+  "8": "traffic_noise",
+  "9": "varied_horn_ahead",
+  "10": "varied_horn_alongside",
+  "11": "varied_horn_behind"
+}
