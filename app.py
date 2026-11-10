@@ -167,7 +167,7 @@ st.markdown("<hr style='margin: 8px 0px; border-color: #1e293b;'>", unsafe_allow
 
 def execute_live_pipeline():
     rec_result = subprocess.run(
-        [sys.executable, "scripts/record_wav.py", "--out", AUDIO_FILE, "--seconds", "4", "--device", "1"],
+        [sys.executable, "scripts/record_wav.py", "--out", AUDIO_FILE, "--seconds", "12", "--device", "1"],
         capture_output=True, text=True
     )
     bridge_result = subprocess.run(
